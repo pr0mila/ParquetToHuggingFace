@@ -5,6 +5,10 @@ This project processes audio data and creates Parquet files for uploading to Hug
 - **`create_parquet.py`**: This script is used to create Parquet files from raw audio data. :musical_note:
 - **`upload_to_huggingface.py`**: This script uploads the Parquet files to Hugging Face, where they can be stored and shared. :cloud:
 
+### Dataset Example: [MediBeng Dataset on Hugging Face](https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng) :floppy_disk:
+
+I followed the steps above to create the **MediBeng** dataset, which contains audio data along with their transcriptions, and uploaded it to Hugging Face. You can explore the dataset [here](https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng).
+
 ## Table of Contents
 - [1. Cloning the Repository](#1-cloning-the-repository) :book:
 - [2. Setting Up the Conda Environment](#2-setting-up-the-conda-environment) :wrench:
@@ -133,7 +137,7 @@ This will upload the Parquet files from the `processed_data` directory to your H
 
 ### Final Outcome:
 
-### Screenshot of Final Outcome:
+
 ![View of Final Outcome](parquettohuggingface.png)
 
 Once the scripts are successfully run, your data will be stored on Hugging Face as Parquet files, and you will have the ability to share and use them for various machine learning or research purposes.
