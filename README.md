@@ -44,6 +44,11 @@ Install the necessary dependencies by using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
+Or, install the dependencies
+
+```bash
+pip install pandas soundfile numpy librosa datasets
+```
 
 This will install all the required libraries and packages to run the project.
 
