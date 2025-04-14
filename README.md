@@ -100,38 +100,30 @@ ParquetToHuggingFace/
 
 ## 7. Running the Scripts
 
-### Step 1: Create Parquet Files
+### Step 1: Update Config Path in `main.py`
 
-Run the following command to create the Parquet files from your raw audio data:
+Before running the scripts, make sure to update the path of your `config.yaml` file in `src/main.py` to reflect your local configuration. This will ensure the scripts use the correct settings.
 
-```bash
-python3 src/create_parquet.py
-```
+### Step 2: Run `main.py` for Final Output
 
-This script will process the audio data in the `raw data` directory, calculate pitch statistics, and create the corresponding Parquet files in the `processed_data` directory.
-
-### Step 2: Upload to Hugging Face
-
-After the Parquet files are created, you can upload them to Hugging Face by running the following:
+Once the config path is updated, run the `main.py` file to generate the final output:
 
 ```bash
-python3 src/upload_to_huggingface.py
+python3 src/main.py
 ```
-
-This will upload the Parquet files from the `processed_data` directory to your Hugging Face repository.
 
 ## 8. How the Code Works
 
 ### `create_parquet.py`:
-- This script reads the raw audio data and the CSV file containing information about the audio (e.g., transcription and translation).
+- The `create_parquet.py` class processes raw audio data and its corresponding CSV file (which contains transcription and translation).
 - It calculates pitch statistics (mean and standard deviation) for each audio file.
-- It then creates a Parquet file with the processed data (audio, transcription, translation, pitch statistics).
-- The output is saved as Parquet files in the `processed_data` directory.
+- The processed data, including audio, transcription, translation, and pitch statistics, is then saved as Parquet files in the `processed_data` directory.
 
 ### `upload_to_huggingface.py`:
-- This script logs you into Hugging Face using the token set in the environment.
+- The `upload_to_huggingface.py` class logs you into Hugging Face using the token set in your environment.
 - It checks whether the repository exists or needs to be created on Hugging Face.
-- It then uploads the Parquet files from the `processed_data` directory to your Hugging Face repository.
+- Finally, it uploads the Parquet files from the `processed_data` directory to your Hugging Face repository.
+
 
 ---
 
