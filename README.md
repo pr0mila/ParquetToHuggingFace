@@ -1,19 +1,19 @@
-# ParquetToHuggingFace
+# ParquetToHuggingFace :package:
 
 This project processes audio data and creates Parquet files for uploading to Hugging Face. It uses the following two main scripts:
 
-- **`create_parquet.py`**: This script is used to create Parquet files from raw audio data.
-- **`upload_to_huggingface.py`**: This script uploads the Parquet files to Hugging Face, where they can be stored and shared.
+- **`create_parquet.py`**: This script is used to create Parquet files from raw audio data. :musical_note:
+- **`upload_to_huggingface.py`**: This script uploads the Parquet files to Hugging Face, where they can be stored and shared. :cloud:
 
 ## Table of Contents
-- [1. Cloning the Repository](#1-cloning-the-repository)
-- [2. Setting Up the Conda Environment](#2-setting-up-the-conda-environment)
-- [3. Installing Dependencies](#3-installing-dependencies)
-- [4. Setting Up Hugging Face Token](#4-setting-up-hugging-face-token)
-- [5. Configuring the `config.yaml`](#5-configuring-the-configyaml)
-- [6. Data Setup](#6-data-setup)
-- [7. Running the Scripts](#7-running-the-scripts)
-- [8. How the Code Works](#8-how-the-code-works)
+- [1. Cloning the Repository](#1-cloning-the-repository) :book:
+- [2. Setting Up the Conda Environment](#2-setting-up-the-conda-environment) :wrench:
+- [3. Installing Dependencies](#3-installing-dependencies) :floppy_disk:
+- [4. Setting Up Hugging Face Token](#4-setting-up-hugging-face-token) :lock:
+- [5. Configuring the `config.yaml`](#5-configuring-the-configyaml) :gear:
+- [6. Data Setup](#6-data-setup) :file_folder:
+- [7. Running the Scripts](#7-running-the-scripts) :rocket:
+- [8. How the Code Works](#8-how-the-code-works) :memo:
 
 ## 1. Cloning the Repository
 
@@ -132,7 +132,11 @@ This will upload the Parquet files from the `processed_data` directory to your H
 ---
 
 ### Final Outcome:
-Once the scripts are successfully run, your data will be stored on Hugging Face as Parquet files, and you will have the ability to share and use them for various machine learning or research purposes.
 
 ### Screenshot of Final Outcome:
-![Final Outcome](parquettohuggingface.png)
+![View of Final Outcome](parquettohuggingface.png)
+
+Once the scripts are successfully run, your data will be stored on Hugging Face as Parquet files, and you will have the ability to share and use them for various machine learning or research purposes.
+
+
+
