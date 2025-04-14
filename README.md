@@ -24,7 +24,7 @@ I followed the steps above to create the **MediBeng** dataset, which contains au
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/ParquetToHuggingFace.git
+git clone https://github.com/pr0mila/ParquetToHuggingFace.git
 cd ParquetToHuggingFace
 ```
 
