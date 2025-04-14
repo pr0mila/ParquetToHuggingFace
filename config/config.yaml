@@ -1,7 +1,7 @@
 paths:
-  base_data_directory: "/Users/promilaghosh/VS-Code-Projects/ParquetToHuggingFace/data/raw data"
-  output_directory: "/Users/promilaghosh/VS-Code-Projects/ParquetToHuggingFace/data/processed_data"
+  base_data_directory: "./ParquetToHuggingFace/data/raw data"
+  output_directory: ./ParquetToHuggingFace/data/processed_data"
 
 huggingface:
-  repo_id: "pr0mila-gh0sh/ParquetToHuggingFace"
+  repo_id: "username/repo_id"
   token_env_var: "HUGGINGFACE_TOKEN"

@@ -1,7 +1,7 @@
 from create_parquet import ParquetFileCreator
 from upload_to_huggingface import HuggingFaceUploader
 
-config_path = "/Users/promilaghosh/VS-Code-Projects/ParquetToHuggingFace/config/config.yaml"
+config_path = "./config/config.yaml"
 
 def main():
     # Create an instance of the ParquetFileCreator class to create Parquet files
