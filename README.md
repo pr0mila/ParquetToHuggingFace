@@ -29,8 +29,8 @@ cd ParquetToHuggingFace
 Create a new Conda environment to run the project:
 
 ```bash
-conda create --name codemixed-tts python=3.9
-conda activate codemixed-tts
+conda create --name audio-parquet python=3.9
+conda activate audio-parquet
 ```
 
 ## 3. Installing Dependencies
@@ -135,4 +135,4 @@ This will upload the Parquet files from the `processed_data` directory to your H
 Once the scripts are successfully run, your data will be stored on Hugging Face as Parquet files, and you will have the ability to share and use them for various machine learning or research purposes.
 
 ### Screenshot of Final Outcome:
-![Final Outcome](data/Screenshot%202025-04-14%20at%201.48.35%20PM.png)
+![Final Outcome](parquettohuggingface.png)
