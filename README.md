@@ -1,11 +1,16 @@
 # ParquetToHuggingFace :package:
 
-This project processes audio data and creates Parquet files for uploading to Hugging Face. It uses the following two main scripts:
+This project processes **MediBeng** audio data and creates Parquet files for uploading to Hugging Face. It uses the following two main scripts:
 
-- **`create_parquet.py`**: This script is used to create Parquet files from raw audio data. :musical_note:
-- **`upload_to_huggingface.py`**: This script uploads the Parquet files to Hugging Face, where they can be stored and shared. :cloud:
+- **`create_parquet.py`**: This script is used to create Parquet files from the synthetic **Bengali-English code-switched audio data** in healthcare settings. :musical_note:
+- **`upload_to_huggingface.py`**: This script uploads the Parquet files to Hugging Face, making the **MediBeng** dataset publicly available for sharing and usage. :cloud:
 
-### Dataset Example: [MediBeng Dataset on Hugging Face](https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng) :floppy_disk:
+### Explore the MediBeng Dataset : [MediBeng Dataset on Hugging Face](https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng) 🤗
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/pr0mila/ParquetToHuggingFace/main/medbeng.png" width="300"/>
+</p>
+
 
 I followed the steps above to create the **MediBeng** dataset, which contains audio data along with their transcriptions, and uploaded it to Hugging Face. You can explore the dataset [here](https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng).
 
