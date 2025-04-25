@@ -23,6 +23,8 @@ I followed the steps above to create the **MediBeng** dataset, which contains au
 - [6. Data Setup](#6-data-setup) :file_folder:
 - [7. Running the Scripts](#7-running-the-scripts) :rocket:
 - [8. How the Code Works](#8-how-the-code-works) :memo:
+- [9. Loading the MediBeng Dataset](#9-loading-the-medibeng-dataset) :arrow_down:
+- [10. Summary of Updates](#10-summary-of-updates) :clipboard:
 
 ## 1. Cloning the Repository
 
@@ -143,6 +145,39 @@ python3 src/main.py
 ![View of Final Outcome](parquettohuggingface.png)
 
 Once the scripts are successfully run, your data will be stored on Hugging Face as Parquet files, and you will have the ability to share and use them for various machine learning or research purposes.
+
+## 9. Loading the MediBeng Dataset
+
+This guide demonstrates how to load the "MediBeng" dataset for use in your machine learning or research projects.
+
+First, install the necessary dependencies by running the following command:
+
+```bash
+pip install datasets[audio]
+
+To begin working with the **MediBeng** dataset, follow these steps to load both the training and test splits.
+
+The code below will load the dataset and allow you to take a quick look at the first three examples from the training split.
+
+```python
+from datasets import load_dataset
+
+# Load the dataset with both train and test splits
+ds = load_dataset("pr0mila-gh0sh/MediBeng", split=["train", "test"])
+
+# Take the first three examples from the training part
+ds_head = ds[0].take(3)
+```
+## 10. Summary of Updates
+
+1. **Processing Parquet files**: Added steps to convert and process Parquet files containing audio data.
+   
+2. **Storing on Hugging Face**: Instructions on how to store datasets on Hugging Face after processing them.
+
+3. **Loading from Hugging Face**: After uploading the dataset to Hugging Face, we can load it into the Python environment using the `load_dataset()` method with the appropriate path.
+
+4. **Example of Dataset MediBeng Storing and Loading**: The code snippet demonstrates how to load the MediBeng dataset from Hugging Face.
+
 
 
 
