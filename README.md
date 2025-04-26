@@ -1,3 +1,19 @@
+<p align="right">
+<img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
+  <a href="https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng">
+    <img src="https://img.shields.io/badge/🤗%20Dataset-MediBeng-yellow?link=https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng" alt="Hugging Face Dataset" />
+  </a>
+  <a href="https://doi.org/10.57967/hf/5187">
+    <img src="https://img.shields.io/badge/DOI-10.57967%2Fhf%2F5187-blue" alt="Dataset DOI" />
+  </a>
+  <a href="https://doi.org/10.1101/2025.04.25.25326406">
+    <img src="https://img.shields.io/badge/medRxiv-10.1101%2F2025.04.25.25326406-0077cc" alt="medRxiv Preprint" />
+  </a>
+  <a href="https://paperswithcode.com/sota/speech-to-text-translation-on-medibeng?p=medibeng-whisper-tiny-a-fine-tuned-code">
+    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/medibeng-whisper-tiny-a-fine-tuned-code/speech-to-text-translation-on-medibeng" alt="PWC" />
+  </a>
+</p>
+
 # ParquetToHuggingFace :package:
 
 This project processes **MediBeng** audio data and creates Parquet files for uploading to Hugging Face. It uses the following two main scripts:
