@@ -1,5 +1,4 @@
 <p align="right">
-<img src="https://img.shields.io/badge/License-MIT-lightblue.svg" alt="License: MIT" />
   <a href="https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng">
     <img src="https://img.shields.io/badge/🤗%20Dataset-MediBeng-yellow?link=https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng" alt="Hugging Face Dataset" />
   </a>
