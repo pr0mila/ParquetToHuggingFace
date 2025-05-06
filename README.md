@@ -22,7 +22,7 @@ This project processes **MediBeng** audio data and creates Parquet files for upl
 
 ### Explore the MediBeng Dataset : [MediBeng Dataset on Hugging Face](https://huggingface.co/datasets/pr0mila-gh0sh/MediBeng) 🤗
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/pr0mila/ParquetToHuggingFace/main/medbeng.png" width="300"/>
 </p>
 
