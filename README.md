@@ -169,7 +169,7 @@ First, install the necessary dependencies by running the following command:
 
 ```bash
 pip install datasets[audio]
-
+```
 To begin working with the **MediBeng** dataset, follow these steps to load both the training and test splits.
 
 The code below will load the dataset and allow you to take a quick look at the first three examples from the training split.
